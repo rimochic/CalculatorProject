@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-06T11:36:25 MDT" name="Suite" finished-at="2022-10-06T11:36:38 MDT" duration-ms="13044">
+    <groups>
+    </groups>
+    <test started-at="2022-10-06T11:36:25 MDT" name="Test1" finished-at="2022-10-06T11:36:30 MDT" duration-ms="5494">
+      <class name="testPage.HomePageTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:testPage.HomePageTest@68c72235]" started-at="2022-10-06T11:36:25 MDT" name="launchBrowser" finished-at="2022-10-06T11:36:29 MDT" duration-ms="4588" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.calculator.net]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="getTitle()[pri:0, instance:testPage.HomePageTest@68c72235]" started-at="2022-10-06T11:36:29 MDT" name="getTitle" finished-at="2022-10-06T11:36:29 MDT" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPage.HomePageTest@68c72235]" started-at="2022-10-06T11:36:29 MDT" name="tearDown" finished-at="2022-10-06T11:36:30 MDT" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testPage.HomePageTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2022-10-06T11:36:25 MDT" name="Test2" finished-at="2022-10-06T11:36:38 MDT" duration-ms="13044">
+      <class name="testPage.CalculatorTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:testPage.CalculatorTest@383bfa16]" started-at="2022-10-06T11:36:25 MDT" name="launchBrowser" finished-at="2022-10-06T11:36:33 MDT" duration-ms="7801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.calculator.net/mortgage-calculator.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="getTitleMort()[pri:1, instance:testPage.CalculatorTest@383bfa16]" started-at="2022-10-06T11:36:33 MDT" name="getTitleMort" finished-at="2022-10-06T11:36:33 MDT" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitleMort -->
+        <test-method signature="MortgageCal_TC2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testPage.CalculatorTest@383bfa16]" started-at="2022-10-06T11:36:33 MDT" name="MortgageCal_TC2" data-provider="MortgageData" finished-at="2022-10-06T11:36:37 MDT" duration-ms="3837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[700000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[80000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5.71]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Jul]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2022]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MortgageCal_TC2 -->
+        <test-method signature="CalManual(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:testPage.CalculatorTest@383bfa16]" started-at="2022-10-06T11:36:37 MDT" name="CalManual" data-provider="MortgageData" finished-at="2022-10-06T11:36:37 MDT" duration-ms="60" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[700000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[80000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5.71]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Jul]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2022]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CalManual -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPage.CalculatorTest@383bfa16]" started-at="2022-10-06T11:36:37 MDT" name="tearDown" finished-at="2022-10-06T11:36:38 MDT" duration-ms="1261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testPage.CalculatorTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
